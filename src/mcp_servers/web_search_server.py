@@ -1,7 +1,7 @@
 from typing import Optional
 from mcp.server.fastmcp import FastMCP
 
-from models.analyzer_models import AnalyzerResult
+from src.models.analyzer_models import AnalyzerResult
 from src.tools import (
     custom_sites_search_tool,
     custom_domains_search_tool,

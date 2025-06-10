@@ -73,7 +73,7 @@ class GoogleSearch(SearchInterface):
             full_query = f"{query} {domain_restriction}"
 
             # 2. Execute the search
-            result = search(full_query, num_results=5, advanced=True)
+            result = search(full_query, num_results=3, advanced=True)
 
             # 3. Check for returned result
             items = [
